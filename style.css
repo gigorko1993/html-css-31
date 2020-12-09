@@ -106,7 +106,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-.hero .link {
+.hero-link {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
@@ -161,53 +161,28 @@ body {
 /* футер */
 .footer {
   background-color: var(--bg-hero-footer);
-  color: var(--white-text-color);
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
 }
-
+.footer,
 .footer .logo {
   color: var(--white-text-color);
 
-  font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.footer-addres {
-  font-style: normal;
-}
-
 .footer .link {
   color: var(--footer-transparent-color);
+}
+
+.footer .list {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Портфоліо */
 .portfolio {
   background-color: var(--bg-color-white);
 }
-
 .portfolio .title {
   color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.portfolio .button {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-
-.portfolio .text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
 }

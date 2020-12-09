@@ -34,6 +34,11 @@ body {
   list-style: none;
 }
 
+.link,
+.logo {
+  text-decoration: none;
+}
+
 /* logo */
 .header .logo {
   color: var(--logo-text-black);
@@ -165,7 +170,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.footer-link {
+.footer .link {
   color: var(--footer-transparent-color);
 }
 

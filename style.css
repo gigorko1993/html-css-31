@@ -199,18 +199,34 @@ p {
   font-size: 14px;
   line-height: 1.71;
 }
-/* Description */
+/* description */
 .section.description {
   padding-top: 0;
 }
 
 /* our team */
+.container-our-team {
+  padding-top: 0;
+  padding-bottom: 30px;
+
+  background-color: var(--bg-color-white);
+
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
 .our-team {
   background-color: var(--bg-color-secondary);
   line-height: 1.19;
 }
 
 .our-team .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -218,11 +234,17 @@ p {
 }
 
 .our-team .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 16px;
 }
 
 /* футер */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--bg-hero-footer);
 }
 .footer,
@@ -234,6 +256,12 @@ p {
   font-size: 26px;
   line-height: 1.19;
 }
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 .footer .link {
   color: var(--footer-transparent-color);
 }
@@ -248,6 +276,9 @@ p {
   line-height: 1.71;
 }
 
+.footer li {
+  margin-bottom: 9px;
+}
 .footer-addres {
   font-style: normal;
 }

@@ -3,12 +3,13 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --white-text-color: #ffffff;
+  --footer-transparent-color: rgba(255, 255, 255, 0.6);
+
   --bg-color: #e5e5e5;
   --bg-color-secondary: #f5f4fa;
   --bg-color-white: #ffffff;
   --logo-text-black: #000000;
   --bg-hero-footer: #2f303a;
-  --footer-transparent-color: rgba(255, 255, 255, 0.6);
 }
 
 /* color of main text #757575 */
@@ -32,11 +33,31 @@ body {
 
 .list {
   list-style: none;
+
+  padding: 0;
+  margin: 0;
 }
+
+/* h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
 
 .link,
 .logo {
   text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid teal;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* logo */
@@ -94,9 +115,13 @@ body {
 /* hero  */
 .hero {
   background-color: var(--bg-hero-footer);
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--white-text-color);
 
   font-weight: 900;
@@ -107,6 +132,12 @@ body {
   letter-spacing: 0.06em;
 }
 .hero .link {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   background-color: var(--accent-color);
   color: var(--white-text-color);
 
@@ -114,16 +145,22 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .hero .link:hover,
 .hero .link:focus {
   background-color: var(--bg-color-white);
   color: var(--accent-color);
+
+  border: 1px solid var(--accent-color);
 }
 
 /* section */
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -132,11 +169,21 @@ body {
   text-align: center;
 }
 .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--bg-color-white);
+}
+
+.section-title.centred {
+  text-align: center;
 }
 
 /* feautures  */
 .feautures .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -146,8 +193,15 @@ body {
 }
 
 .feautures .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 14px;
   line-height: 1.71;
+}
+/* Description */
+.section.description {
+  padding-top: 0;
 }
 
 /* our team */

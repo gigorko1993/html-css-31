@@ -276,7 +276,7 @@ p {
   display: flex;
 }
 
-.container-our-team:not(:first-child) {
+.our-team .item:not(:first-child) {
   margin-left: 30px;
 }
 

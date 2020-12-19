@@ -438,7 +438,7 @@ p {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  width: 100%;
+  max-width: 370px;
 }
 
 .image-block {
